@@ -1,0 +1,54 @@
+*, *:before, *:after {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+body {
+	background-color: violet
+} 
+
+h1 {
+   font-size: 5em;
+}
+h2 {
+   font-size: 3em;
+   text-align: center;
+}
+h1, h2 {
+   font-weight: bold;
+   font-family:Lucida Sans Unicode;
+   margin: 5px 0;
+}
+p {
+   font-family: "Book Antiqua";
+   font-size: 2em;
+   margin: 5px 0;
+}
+ul {
+   padding-left: 10px;
+   margin: 10px 0;
+   list-styletype: disc;
+   font-style: italic;
+}
+li {
+   display: inline;
+   margin-left: 10px;
+   padding-left: 10px;
+}
+#materiali li {
+	display: block;
+}
+header, article, aside, footer {
+   background-color: white;
+   border: 10px dotted #111;
+   padding: 20px 1em;
+   margin: 40px 5% 10px;
+}
+
+header {
+   margin-top: 60px;
+}
+
+footer {
+	background-color: grey;
+	}
